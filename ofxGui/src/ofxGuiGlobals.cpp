@@ -36,13 +36,15 @@ ofxGuiGlobals* ofxGuiGlobals::Instance()
 ofxGuiGlobals::ofxGuiGlobals()
 {
 	mXmlfile			= "";
-
+	
+	// TODO: make this work with sandbox
 	mHeadFontName		= "fonts/Questrial-Regular.ttf";
 	mHeadFontSize		= 12;
 	mHeadFontXOffset	= -1;
 	mHeadFontYOffset	= 10;
 	mHeadFontHeight		= 12;
-
+	
+	// TODO: make this work with sandbox
 	mParamFontName		= "fonts/Questrial-Regular.ttf";
 	mParamFontSize		= 9;
 	mParamFontXOffset	= 1;

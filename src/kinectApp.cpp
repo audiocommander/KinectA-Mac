@@ -41,11 +41,13 @@ void kinectApp::setup() {
     for (int i = 0; i < nrObjects; i++){ idObject[i] = 0; }
     
     ofBackground(50, 50, 50);
+	// TODO: make this work with sandbox
     background.loadImage("background/Interface.png");
     background.allocate(905, 730, OF_IMAGE_COLOR_ALPHA);
     
     
     //-- initialize gui classes & variables --//
+	// TODO: make this work with sandbox
     usedFont.loadFont("fonts/Questrial-Regular.ttf", 9);
     usedFont.setLineHeight(14);
     
