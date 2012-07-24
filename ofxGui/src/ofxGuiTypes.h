@@ -27,13 +27,14 @@
 //	----------------------------------------------------------------------------------------------------
 
 #include "ofxXmlSettings.h"
-#include "ofVectorMath.h"
+//#include "ofVectorMath.h"
+#include "ofxVectorMath.h"	// added by auco, 2012-Jul-24
 #include "ofFileUtils.h"
 
 
 #include "ofMain.h"
 
-//#include <glut.h> //added by mihoo, 2012-Jan-13
+//#include <glut/glut.h> //added by mihoo, 2012-Jan-13
 
 //	----------------------------------------------------------------------------------------------------
 

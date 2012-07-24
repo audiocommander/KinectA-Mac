@@ -67,8 +67,8 @@
 		1084C9AE15A4E7A1004EE134 /* filter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1084C9A815A4E7A1004EE134 /* filter.cpp */; };
 		1084C9AF15A4E7A1004EE134 /* kinectApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1084C9AB15A4E7A1004EE134 /* kinectApp.cpp */; };
 		1084C9B015A4E7A1004EE134 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1084C9AD15A4E7A1004EE134 /* main.cpp */; };
+		56500DB115BE219200D9E21A /* openFrameworks.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56500DB015BE219200D9E21A /* openFrameworks.a */; };
 		BBAB23CB13894F3D00AA2426 /* GLUT.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BBAB23BE13894E4700AA2426 /* GLUT.framework */; };
-		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
 		E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9710E8CC7DD009D7055 /* AGL.framework */; };
 		E45BE97C0E8CC7DD009D7055 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9720E8CC7DD009D7055 /* ApplicationServices.framework */; };
 		E45BE97D0E8CC7DD009D7055 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9730E8CC7DD009D7055 /* AudioToolbox.framework */; };
@@ -451,6 +451,20 @@
 		1084C9AC15A4E7A1004EE134 /* kinectApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kinectApp.h; sourceTree = "<group>"; };
 		1084C9AD15A4E7A1004EE134 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		10D382E015AB4F4B00DD01E2 /* KinectA.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = KinectA.ico; sourceTree = "<group>"; };
+		56500DAC15BE200100D9E21A /* KinectADebug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = KinectADebug.entitlements; sourceTree = "<group>"; };
+		56500DAD15BE20EF00D9E21A /* KinectA.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = KinectA.icns; sourceTree = "<group>"; };
+		56500DAE15BE20EF00D9E21A /* KinectA.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KinectA.png; sourceTree = "<group>"; };
+		56500DB015BE219200D9E21A /* openFrameworks.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = openFrameworks.a; path = ../../../libs/openFrameworksCompiled/lib/osx/openFrameworks.a; sourceTree = "<group>"; };
+		5671A97415BE282800D9CFCD /* ofxMatrix3x3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxMatrix3x3.h; sourceTree = "<group>"; };
+		5671A97515BE282800D9CFCD /* ofxMatrix4x4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxMatrix4x4.h; sourceTree = "<group>"; };
+		5671A97615BE282800D9CFCD /* ofxPoint2f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxPoint2f.h; sourceTree = "<group>"; };
+		5671A97715BE282800D9CFCD /* ofxPoint3f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxPoint3f.h; sourceTree = "<group>"; };
+		5671A97815BE282800D9CFCD /* ofxPoint4f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxPoint4f.h; sourceTree = "<group>"; };
+		5671A97915BE282800D9CFCD /* ofxQuaternion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxQuaternion.h; sourceTree = "<group>"; };
+		5671A97A15BE282800D9CFCD /* ofxVec2f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxVec2f.h; sourceTree = "<group>"; };
+		5671A97B15BE282800D9CFCD /* ofxVec3f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxVec3f.h; sourceTree = "<group>"; };
+		5671A97C15BE282800D9CFCD /* ofxVec4f.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxVec4f.h; sourceTree = "<group>"; };
+		5671A97D15BE282800D9CFCD /* ofxVectorMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxVectorMath.h; sourceTree = "<group>"; };
 		BBAB23BE13894E4700AA2426 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../libs/glut/lib/osx/GLUT.framework; sourceTree = "<group>"; };
 		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
 		E45BE9710E8CC7DD009D7055 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
@@ -476,8 +490,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56500DB115BE219200D9E21A /* openFrameworks.a in Frameworks */,
 				E4EB6799138ADC1D00A09F29 /* GLUT.framework in Frameworks */,
-				E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */,
 				E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */,
 				E45BE97C0E8CC7DD009D7055 /* ApplicationServices.framework in Frameworks */,
 				E45BE97D0E8CC7DD009D7055 /* AudioToolbox.framework in Frameworks */,
@@ -1243,6 +1257,32 @@
 			path = lib;
 			sourceTree = "<group>";
 		};
+		5671A97215BE282800D9CFCD /* ofxVectorMath */ = {
+			isa = PBXGroup;
+			children = (
+				5671A97315BE282800D9CFCD /* src */,
+			);
+			name = ofxVectorMath;
+			path = ../../../addons/ofxVectorMath;
+			sourceTree = "<group>";
+		};
+		5671A97315BE282800D9CFCD /* src */ = {
+			isa = PBXGroup;
+			children = (
+				5671A97415BE282800D9CFCD /* ofxMatrix3x3.h */,
+				5671A97515BE282800D9CFCD /* ofxMatrix4x4.h */,
+				5671A97615BE282800D9CFCD /* ofxPoint2f.h */,
+				5671A97715BE282800D9CFCD /* ofxPoint3f.h */,
+				5671A97815BE282800D9CFCD /* ofxPoint4f.h */,
+				5671A97915BE282800D9CFCD /* ofxQuaternion.h */,
+				5671A97A15BE282800D9CFCD /* ofxVec2f.h */,
+				5671A97B15BE282800D9CFCD /* ofxVec3f.h */,
+				5671A97C15BE282800D9CFCD /* ofxVec4f.h */,
+				5671A97D15BE282800D9CFCD /* ofxVectorMath.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 		BB4B014C10F69532006C3DED /* addons */ = {
 			isa = PBXGroup;
 			children = (
@@ -1251,6 +1291,7 @@
 				105CA2F915A9FC46001AA6F7 /* ofxXmlSettings */,
 				105CA2C215A9FC3A001AA6F7 /* ofxOsc */,
 				105CA23E15A9FC30001AA6F7 /* ofxOpenCv */,
+				5671A97215BE282800D9CFCD /* ofxVectorMath */,
 			);
 			name = addons;
 			sourceTree = "<group>";
@@ -1302,7 +1343,11 @@
 		E4B69B4A0A3A1720003C02F2 = {
 			isa = PBXGroup;
 			children = (
+				56500DB015BE219200D9E21A /* openFrameworks.a */,
+				56500DAC15BE200100D9E21A /* KinectADebug.entitlements */,
 				10D382E015AB4F4B00DD01E2 /* KinectA.ico */,
+				56500DAD15BE20EF00D9E21A /* KinectA.icns */,
+				56500DAE15BE20EF00D9E21A /* KinectA.png */,
 				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
 				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
 				E4B69E1C0A3A1BDC003C02F2 /* src */,
@@ -1363,7 +1408,7 @@
 		E4B69B4C0A3A1720003C02F2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0440;
 			};
 			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "KinectA" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1599,6 +1644,9 @@
 		E4B69B600A3A1757003C02F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = KinectADebug.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1682,13 +1730,15 @@
 					"\"$(SRCROOT)/ofxOpenCv/libs/opencv/lib/osx\"",
 					"\"$(SRCROOT)/ofxOpenNI-experimental/mac/copy_to_data_openni_path/lib\"",
 					"\"$(SRCROOT)/ofxOpenNI-experimental/win/copy_to_data_openni_path/lib\"",
+					"\"$(SRCROOT)/../../../libs/openFrameworksCompiled/lib/osx\"",
 				);
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../addons/ofxOpenNI/mac/copy_to_data_openni_path/lib\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../../../addons/ofxOpenNI/win/copy_to_data_openni_path/lib\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(SRCROOT)/../../../addons/ofxOpenNI-experimental/win/copy_to_data_openni_path/lib\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4 = "\"$(SRCROOT)/../../../addons/ofxOpenNI-experimental/mac/copy_to_data_openni_path/lib\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = KinectADebug;
-				SDKROOT = macosx;
+				SDKROOT = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1696,6 +1746,9 @@
 		E4B69B610A3A1757003C02F2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = KinectADebug.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1778,13 +1831,15 @@
 					"\"$(SRCROOT)/ofxOpenCv/libs/opencv/lib/osx\"",
 					"\"$(SRCROOT)/ofxOpenNI-experimental/mac/copy_to_data_openni_path/lib\"",
 					"\"$(SRCROOT)/ofxOpenNI-experimental/win/copy_to_data_openni_path/lib\"",
+					"\"$(SRCROOT)/../../../libs/openFrameworksCompiled/lib/osx\"",
 				);
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../addons/ofxOpenNI/mac/copy_to_data_openni_path/lib\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../../../addons/ofxOpenNI/win/copy_to_data_openni_path/lib\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_3 = "\"$(SRCROOT)/../../../addons/ofxOpenNI-experimental/win/copy_to_data_openni_path/lib\"";
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_4 = "\"$(SRCROOT)/../../../addons/ofxOpenNI-experimental/mac/copy_to_data_openni_path/lib\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = KinectA;
-				SDKROOT = macosx;
+				SDKROOT = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
