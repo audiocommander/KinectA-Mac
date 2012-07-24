@@ -539,7 +539,11 @@ void kinectApp::objectGenerator(){
         mem[i] = 0;
         counter[i] = 0;
         for (int loc = 0; loc < fullsize; loc++){ if (objPix[i][loc] != 0) { mem[i] = mem[i] + objPix[i][loc]; counter[i]++; } }
-        grayVal[i] = mem[i] / counter[i];
+		if(counter[i]>0) {	// crash if division by 0
+			grayVal[i] = mem[i] / counter[i];
+		} else {
+			grayVal[i] = mem[i] / 1;
+		}
         objectZ[i] = ofMap(grayVal[i], 0, 255, 10000, 0);
         
         objPix[i].clear();
